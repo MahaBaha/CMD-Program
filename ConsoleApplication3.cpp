@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	cout << "прагрмма пасчитает вам дно по алгоритму ивклида,хех" << endl;
+	cout << "Программа считает НОД по алгоритму Евклида" << endl;
 	if (argc == 3)
 	{
 		int a = atoi(argv[1]);
@@ -23,7 +23,13 @@ int main(int argc, char *argv[])
 			}
 		}
 
-		cout << a + b << endl;
+		cout << "НОД равен: " << a + b << endl;
+		system("pause");
+	}
+
+	else
+	{
+		cout << "Ввести надо 2 числа" << endl;
 		system("pause");
 	}
 
